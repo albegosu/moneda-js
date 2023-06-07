@@ -1,8 +1,67 @@
+/* BODY */
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,226,223,1) 100%);
+}
+
+/* COUNTERS */
+.divCounter:last-child {
+    padding-left: 2rem;
+}
+
+.counters {
+    background-color: blueviolet;
+    color: whitesmoke;
+    width: 2rem;
+    height: 2rem;
+    border-style: none;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+/* BTNs */
+.btnViolet {
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 1rem;
+    border-style: none;
+    text-align: center;
+    transition: 0.4s;
+    margin-top: 5rem;
+}
+
+.btnViolet:hover {
+    background-color: whitesmoke;
+    color: blueviolet;
+    letter-spacing: 0.2rem;
+    transform: translate(-1rem);
+}
+
+.btnViolet:hover {
+    background-color: whitesmoke;
+    color: blueviolet;
+    letter-spacing: 0.2rem;
+}
+
+#flipBtn:hover {
+    transform: translate(-1rem);
+}
+
+#resetBtn:hover {
+    transform: translate(1rem);
+}
+
+/* COIN CSS */
 .coin{
     height: 150px;
     width: 150px;
     position: relative;
-    margin: 50px auto;
+    margin: 5rem 0 1rem 0;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
@@ -35,3 +94,37 @@
         transform: rotateX(2160deg);
     }
 }
+
+/* TEXTO ANIMADO */
+
+#tittle {
+    font-size: 4rem;
+    color: grey;
+    margin: 4rem auto 0 auto !important;
+    text-align: center;
+  }
+
+  span.text {
+      padding: 0;
+      padding-right: 4px;
+      border-right: 2px solid #747474;
+      animation: blink 0.75s infinite;
+      font-weight: 600;
+  }
+  
+  .blue {
+      color: blueviolet;
+  }
+  .yellow {
+      color: rgb(247, 205, 38);
+  }
+  
+  p.info {
+    font-size: 12px;
+    margin-top: 6rem;
+    color: #747474;}
+  
+    a{
+      text-decoration: none;
+      color: white;
+    }
